@@ -1,3 +1,41 @@
-p {
-	color: red;
+html {
+/*ISSO É UM COMENTÁRIO .CSS*/
+	font-size: 16px;
+	font-family: "Buda", serif;
+	background-color: #66cd63;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	text-shadow: 3px 3px 1px black;
+	color: #66cd63;
+}
+
+p,
+li {
+	fonte-size: 20px;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+
+body {
+	width: 600px;
+	margin: 0 auto;
+	background-color: #f0e0f1;
+	padding: 0 20px 20px 20px;
+	border: 1px solid black;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.done {
+	color: darkseagreen;
+	text-decoration: line-through solid black 2px;
 }
